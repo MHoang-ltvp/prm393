@@ -515,10 +515,10 @@ class _TetHomePageState extends State<TetHomePage> {
         onDestinationSelected: (int value) => setState(() => _tabIndex = value),
         destinations: const <NavigationDestination>[
           NavigationDestination(icon: Icon(Icons.list_alt), label: 'Danh sách'),
-          NavigationDestination(icon: Icon(Icons.bar_chart), label: 'So sánh giá'),
+          NavigationDestination(icon: Icon(Icons.bar_chart), label: 'Danh sách giá'),
           NavigationDestination(icon: Icon(Icons.savings), label: 'Tổng kết'),
         ],
       ),
     );
-  }
+  }SS
 }

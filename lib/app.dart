@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tet_shop/features/shopping/presentation/pages/tet_redesign_page.dart';
+import 'package:tet_shop/features/shopping/presentation/pages/tet_shopping_sync_page.dart';
 
 class TetShopApp extends StatelessWidget {
   const TetShopApp({super.key});
@@ -13,7 +13,7 @@ class TetShopApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFC0392B)),
         useMaterial3: true,
       ),
-      home: const TetRedesignPage(),
+      home: const TetShoppingSyncPage(),
     );
   }
 }
